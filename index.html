@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="'viewpoint" content="device-width, initial scale=1.0">
+        <title>Srikrithi Santhanam-Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/082670664c.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header"><i class=" fa fa-duotone fa-house"></i> Home</a></li>
+                <li><a href="#about"><i class=" fa fa-light fa-user"></i> About</a></li>
+                <li><a href="#services"><i class="fa fa-light fa-computer"></i> Projects</a></li>
+                <li><a href="#portfolio"><i class="fa fa-thin fa-file"></i> Portfolio</i></a></li>
+                <li><a href="#contact"><i class="fa fa-light fa-link"></i> Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Hi There!</p>
+            <h1>I'm <span>Srikrithi Santhanam</span><br>from Chennai</h1>
+        </div>
+</div>
+<!-------about---------->
+
+<div id="about">
+    <div class="containter">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/My project-1 (1).png"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>I'm  pursuing my BTech degree in CSE at SRM Institute of Science and Technology.<br>
+                        I'm vey much eager to learn and adopt to various skillset and improve them</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desiging Web App interface</li><br>
+                            <li><span>Web Development</span><br>Developing on web projects</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Intership at  </li>
+                            <li><span>2021</span><br>Web Portal Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>Chettinad Vidyashram</li>
+                            <li><span>2025</span><br>SRM University</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!--------------services--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2><br>
+                <p>About web devlopment in detail, have to be updatetd</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-microphone"></i>
+                <h2>Music</h2><br>
+                <p>About my musical joureney in detail, have to be updatetd</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2><br>
+                <p>About web devlopment in detail, have to be updatetd</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/photo1.jpg">
+                <div class="layer">
+                    <h3> Social Media App</h3>
+                    <p> The web portal deals with the cultural and heritage sites</p>
+                    <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/photo2.jpg">
+                <div class="layer">
+                    <h3> Music and Me</h3>
+                    <p> The web portal deals with the cultural and heritage sites</p>
+                    <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/photo3.png">
+                <div class="layer">
+                    <h3>Learning </h3>
+                    <p> The web portal deals with the cultural and heritage sites</p>
+                    <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Find me on</h1>
+                <p><i class="fa-solid fa-envelope"></i>srikrithisanthanam@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7397376135</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/srikrithisanthanam"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/srikrithi-santhanam/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="My Resume.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your e-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyrights">
+        <p><i class="fa-solid fa-copyright"></i>  Designed and Developed by Srikrithi Santhanam</p>
+    </div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script> 
+var sidemenu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+    
+</script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxwB_JUte4EUelOBbf35Ce0VyZrS1Ht33UCMKDQLM9cQt0gRurLENwm9mgqE2XziY_w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Succesfully Sent!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },2500)
+            form.reset()    
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
